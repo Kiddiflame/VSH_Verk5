@@ -1,0 +1,30 @@
+Git spurningar og svör
+1) cd: go to a directory
+   cd ~: returns the user to the previous current directory and reports on a new line the absolute      pathname of that directory.
+   ls: list the files contained
+   pwd: shows the current directory
+   mkdir: creates a directory
+
+2) git clone: Downloads a project and its entire version history
+   git log: Lists version history for the current branch
+   git status: Lists all new or modified files to be commited
+   git diff: Shows file differences not yet staged
+   git checkout: Switches to the specified branch and updates the working directory
+
+3) git diff shows the differences not yet staged, while git diff --staged shows file differences between staging and the last file version, and git diff "commit 1" "commit 2" shows the differences between two branches
+
+4) Version control systems are a category of software tools that help a software team manage changes to source code over time.
+
+5) Helstu kostir við að nota git er að nokkrir eða margir geta unnið við sama verkefni án þess að vera á sama stað, og einnig er hægt að nota kóða frá öðrum eins og þarf
+
+
+6) hugsa ég að ætti að kommitta í hvert skipti sem breyting á kóða sé gerð
+
+7) The working directory is a single checkout of one version of the project. These files are pulled out of the compressed database in the Git directory and placed on disk for you to use or modify.
+	
+   The staging area is a file, generally contained in your Git directory, that stores information about what will go into your next commit. It’s sometimes referred to as the “index”, but it’s also common to refer to it as the staging area.
+    
+   The Git directory is where Git stores the metadata and object database for your project. This is the most important part of Git, and it is what is copied when you clone a repository from another computer.
+
+
+8) Gott er að nota greinar þegar er að vinna í mismunandi brotum verkefnisins og maður getur einbeitt sig á einn hlut í einu.   
